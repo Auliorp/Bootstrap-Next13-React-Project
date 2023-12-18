@@ -1,9 +1,15 @@
-//sin esta importacion no funciona bootstrap
+//sin esta importacion no funciona bootstrap con CSS
 import "bootstrap/dist/css/bootstrap.css";
-import "./globals.css";
-import { Inter } from "next/font/google";
+
+//sin esta importacion no funciona bootstrap con iconos
+import "bootstrap-icons/font/bootstrap-icons.css";
+
+//sin esta importacion no funciona bootstrap con JS
 import BootstrapClient from "./components/BootstrapClient.js";
-const inter = Inter({ subsets: ["latin"] });
+//Componentes visuales.
+import NavbarComponent from "./components/Navbar";
+import FooterComponent from "./components/Footer";
+import BootstrapIcons from "./components/BootstrapIcons.js";
 
 export const metadata = {
    title: "Bootstrap/Nextjs",
@@ -14,9 +20,12 @@ export const metadata = {
 const RootLayout = ({ children }) => {
    return (
       <html lang="en">
-         <body className={inter.className}>
+         <body>
+            <BootstrapIcons />
+            <NavbarComponent />
             {children}
             <BootstrapClient />
+            <FooterComponent />
          </body>
       </html>
    );
