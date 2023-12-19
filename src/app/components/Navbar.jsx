@@ -2,7 +2,7 @@ const NavbarComponent = () => {
    return (
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
                Navbar
             </a>
             <button
@@ -25,14 +25,14 @@ const NavbarComponent = () => {
                      <a
                         className="nav-link active"
                         aria-current="page"
-                        href="#"
+                        href="/"
                      >
                         Home
                      </a>
                   </li>
                   <li className="nav-item">
-                     <a className="nav-link" href="#">
-                        Link
+                     <a className="nav-link" href="/users">
+                        Users
                      </a>
                   </li>
                   <li className="nav-item dropdown">

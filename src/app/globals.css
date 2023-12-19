@@ -1,0 +1,7 @@
+body {
+   background-color: rgb(141, 138, 138);
+   display: grid;
+   flex-direction: column;
+   min-height: 100vh;
+   grid-template-rows: auto 1fr auto;
+}

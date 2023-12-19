@@ -1,9 +1,9 @@
 const FooterComponent = () => {
    return (
       <footer className="bg-body-tertiary text-center">
-         <div className="container p-4 pb-0">
+         <div className="container p-1 pb-0">
             {/* Section: Social media */}
-            <section className="mb-4">
+            <section className="mb-1">
                {/* Facebook  */}
                <a
                   data-mdb-ripple-init
@@ -75,7 +75,7 @@ const FooterComponent = () => {
 
          {/* Copyright */}
          <div
-            className="text-center p-3"
+            className="text-center p-1"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
          >
             © 2023 Copyright:
