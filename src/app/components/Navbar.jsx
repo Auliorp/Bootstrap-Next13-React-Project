@@ -36,8 +36,8 @@ const NavbarComponent = () => {
                      </a>
                   </li>
                   <li className="nav-item">
-                     <a className="nav-link" href="#">
-                        Data
+                     <a className="nav-link" href="/posts">
+                        Posts
                      </a>
                   </li>
                   <li className="nav-item dropdown">

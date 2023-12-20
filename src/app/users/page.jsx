@@ -1,7 +1,7 @@
 import CardComponentUser from "../components/CardUser";
 
 export const metadata = {
-   title: "User-Bootstrap/Nextjs",
+   title: "Users-Bootstrap/Nextjs",
 };
 const UsersPage = () => {
    return (

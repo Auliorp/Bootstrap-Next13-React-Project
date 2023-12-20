@@ -13,7 +13,7 @@ const fetchUsers = async () => {
 };
 
 const CardComponentUser = async () => {
-   //aca llamamos la funcion con la data.
+   //aca llamamos la funcion con la data de la API.
    const user = await fetchUsers();
 
    return (
@@ -34,14 +34,17 @@ const CardComponentUser = async () => {
                      priority={true}
                      style={{ width: "100%", height: "auto" }}
                   />
-                  <div className="card-body">
+                  <div className="card-body d-flex flex-column">
                      <h2 className="card-title">{`${user.first_name} ${user.last_name}`}</h2>
                      <h6 className="card-title">{user.email}</h6>
                      <p className="card-text">
                         {`Some quick example text to build on the card title and make up
                the bulk of the card's content.`}
                      </p>
-                     <a href="#" className="btn btn-primary">
+                     <a
+                        href="#"
+                        className="btn btn-primary btn-sm mt-auto mx-5"
+                     >
                         Go somewhere
                      </a>
                   </div>
