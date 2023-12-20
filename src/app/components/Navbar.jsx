@@ -35,6 +35,11 @@ const NavbarComponent = () => {
                         Users
                      </a>
                   </li>
+                  <li className="nav-item">
+                     <a className="nav-link" href="#">
+                        Data
+                     </a>
+                  </li>
                   <li className="nav-item dropdown">
                      <a
                         className="nav-link dropdown-toggle"

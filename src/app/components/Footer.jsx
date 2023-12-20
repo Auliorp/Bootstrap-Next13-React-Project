@@ -9,8 +9,9 @@ const FooterComponent = () => {
                   data-mdb-ripple-init
                   className="btn text-white btn-floating m-1"
                   style={{ backgroundColor: "#3b5998" }}
-                  href="#!"
+                  href="https://www.facebook.com/aulioalejandro.roveroparedes"
                   role="button"
+                  target="_blank"
                >
                   <i className="bi bi-facebook"></i>
                </a>
@@ -20,21 +21,11 @@ const FooterComponent = () => {
                   data-mdb-ripple-init
                   className="btn text-white btn-floating m-1"
                   style={{ backgroundColor: "#55acee" }}
-                  href="#!"
+                  href="https://twitter.com/RoveroAulio"
                   role="button"
+                  target="_blank"
                >
                   <i className="bi bi-twitter"></i>
-               </a>
-
-               {/* Google */}
-               <a
-                  data-mdb-ripple-init
-                  className="btn text-white btn-floating m-1"
-                  style={{ backgroundColor: "#dd4b39" }}
-                  href="#!"
-                  role="button"
-               >
-                  <i className="bi bi-google"></i>
                </a>
 
                {/* Instagram  */}
@@ -42,8 +33,9 @@ const FooterComponent = () => {
                   data-mdb-ripple-init
                   className="btn text-white btn-floating m-1"
                   style={{ backgroundColor: "#ac2bac" }}
-                  href="#!"
+                  href="https://www.instagram.com/aulioroverop/"
                   role="button"
+                  target="_blank"
                >
                   <i className="bi bi-instagram"></i>
                </a>
@@ -53,8 +45,9 @@ const FooterComponent = () => {
                   data-mdb-ripple-init
                   className="btn text-white btn-floating m-1"
                   style={{ backgroundColor: "#0082ca" }}
-                  href="#!"
+                  href="https://www.linkedin.com/in/auliorovero/"
                   role="button"
+                  target="_blank"
                >
                   <i className="bi bi-linkedin"></i>
                </a>
@@ -63,16 +56,14 @@ const FooterComponent = () => {
                   data-mdb-ripple-init
                   className="btn text-white btn-floating m-1"
                   style={{ backgroundColor: "#333333" }}
-                  href="#!"
+                  href="https://github.com/Auliorp"
                   role="button"
+                  target="_blank"
                >
                   <i className="bi bi-github"></i>
                </a>
             </section>
-            {/* Section: Social media */}
          </div>
-         {/* Grid container */}
-
          {/* Copyright */}
          <div
             className="text-center p-1"

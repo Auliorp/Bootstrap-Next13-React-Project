@@ -5,8 +5,8 @@ export const metadata = {
 };
 const UsersPage = () => {
    return (
-      <div class="text-center ">
-         <h1 class="display-2">Usuarios</h1>
+      <div className="text-center ">
+         <h1 className="display-2">Usuarios</h1>
          <hr />
          <CardComponentUser />
       </div>
